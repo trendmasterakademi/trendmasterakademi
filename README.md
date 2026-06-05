@@ -12,6 +12,7 @@ I specialize in translating complex discretionary trading models (such as Quasim
 <p align="left">
   <img src="https://img.shields.io/badge/MQL5-007acc?style=for-the-badge&logo=c%2B%2B&logoColor=white" alt="MQL5" />
   <img src="https://img.shields.io/badge/MQL4-007acc?style=for-the-badge&logo=c%2B%2B&logoColor=white" alt="MQL4" />
+  <img src="https://img.shields.io/badge/Pine_Script-29B6F6?style=for-the-badge&logo=pine-script&logoColor=white" alt="Pine Script" />
   <img src="https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white" alt="C++" />
   <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
   <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git" />
@@ -52,6 +53,7 @@ A flagship production-grade Expert Advisor showcasing advanced MQL5 engineering 
 I am available for freelance contracts, custom strategy development, and long-term algorithmic trading partnerships.
 
 * 💼 **Hire Me on Upwork:** [trendmasterakademi on Upwork](https://www.upwork.com/freelancers/trendmasterakademi)
+* 📊 **TradingView Profile:** [trendmastera on TradingView](https://www.tradingview.com/u/trendmastera/#published-scripts)
 * 💬 **MQL5 Community Profile:** [mehmetmrt73 on MQL5](https://www.mql5.com/en/users/mehmetmrt73)
 * 📧 **Get in Touch:** [info@trendmasterakademi.com](mailto:info@trendmasterakademi.com)
 
