@@ -51,7 +51,7 @@ A flagship production-grade Expert Advisor showcasing advanced MQL5 engineering 
 
 I am available for freelance contracts, custom strategy development, and long-term algorithmic trading partnerships.
 
-* 💼 **Hire Me on Upwork:** [Upwork Profile](https://www.upwork.com) *(Insert your specific Upwork profile link here)*
+* 💼 **Hire Me on Upwork:** [trendmasterakademi on Upwork](https://www.upwork.com/freelancers/trendmasterakademi)
 * 💬 **MQL5 Community Profile:** [mehmetmrt73 on MQL5](https://www.mql5.com/en/users/mehmetmrt73)
 * 📧 **Get in Touch:** [trendmasterakademi@gmail.com](mailto:trendmasterakademi@gmail.com) *(Or your preferred business email)*
 
