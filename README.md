@@ -53,7 +53,7 @@ I am available for freelance contracts, custom strategy development, and long-te
 
 * 💼 **Hire Me on Upwork:** [trendmasterakademi on Upwork](https://www.upwork.com/freelancers/trendmasterakademi)
 * 💬 **MQL5 Community Profile:** [mehmetmrt73 on MQL5](https://www.mql5.com/en/users/mehmetmrt73)
-* 📧 **Get in Touch:** [trendmasterakademi@gmail.com](mailto:trendmasterakademi@gmail.com) *(Or your preferred business email)*
+* 📧 **Get in Touch:** [info@trendmasterakademi.com](mailto:info@trendmasterakademi.com)
 
 ---
 
