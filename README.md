@@ -27,14 +27,16 @@ Welcome to my GitHub profile! I combine over **two decades of real-world trading
 
 ---
 
-## 🚀 Featured Project: QM Formation EA (v3.0)
-A flagship production-grade Expert Advisor showcasing advanced MQL5 engineering and user interface design.
-* **12-Instance Scanner:** Simultaneously scans 4 distinct symbols across 3 timeframes (M5, M15, H1) with isolated magic numbers, dynamically evaluating RSI divergences, Fair Value Gaps, and Order Blocks.
-* **Bloomberg-Inspired Dashboard:** Real-time matrix display of market conditions, session schedules, and account statistics with interactive controls.
-* **Interactive Drag-and-Drop:** Allows traders to visually adjust Entry, Stop Loss, and Take Profit levels on-chart, displaying live Risk-to-Reward (R:R) calculations before order execution.
-* **Prop-Firm Safeguards:** Integrated daily, weekly, and total drawdown locks to protect account funding.
+### 🚀 Core Algorithmic Systems & Engineering Portfolio
 
-👉 **[Explore the Repository & Code Structure](https://github.com/trendmasterakademi/QMFormationEA)**
+Rather than focusing on a single project, my repositories reflect a comprehensive ecosystem of quantitative tools, custom analytics, and automated trading infrastructures built across multiple programming languages. 
+
+* **MQL5 & C++ (Execution Engines & EAs):** Engineering production-grade, multi-threaded Expert Advisors for MetaTrader 5. My architectures feature multi-symbol/multi-timeframe concurrent scanners, memory-efficient state machines, and strict account-wide drawdown safeguards engineered specifically for Prop Firm environments.
+* **Pine Script (Advanced Market Analytics):** Developing complex custom indicators and visual mapping tools for TradingView. I specialize in translating discretionary logic—such as Smart Money Concepts (SMC), Institutional Order Blocks, and real-time volume profiling (CVD, OBV)—into precise, rule-based algorithms.
+* **Python (Quantitative Data Processing):** Building robust data pipelines and backend frameworks to process macro-economic data, optimize strategy logic, and analyze deep market microstructure beyond traditional charting platforms.
+* **Custom Trading GUIs:** Designing interactive, Bloomberg-inspired dashboards and drag-and-drop on-chart execution controls utilizing raw Canvas/Object APIs to make complex algorithmic data visually accessible and intuitive for the end-user.
+
+👉 *Explore my repositories to see functional code architectures and systems across these domains.*
 
 ---
 
