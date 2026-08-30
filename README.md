@@ -1,61 +1,76 @@
-# Hi there, I'm Mehmet! 👋
-### Quantitative Developer & Algorithmic Trading Systems Engineer
-#### 20+ Years Financial Trader & MQL5/MQL4 Systems Specialist
+# Trend Master Akademi · Studio & Labs
 
-[![Upwork Services](https://img.shields.io/badge/Upwork-Order%20Services-green?style=for-the-badge&logo=upwork)](https://www.upwork.com/services/product/development-it-an-institutional-grade-algorithmic-trading-bot-mt5-ninjatrader-2063169859209407129?ref=project_share)
-[![Upwork Profile](https://img.shields.io/badge/Upwork-Hire%20Me-green?style=for-the-badge&logo=upwork)](https://www.upwork.com/freelancers/trendmasterakademi)
+**B2B technical SWAT and white-label engineering desk for digital agencies.**
 
-Welcome to my GitHub profile! I combine over **two decades of real-world trading experience** with **advanced software engineering** to design, build, and deploy institutional-grade algorithmic trading systems. I specialize in translating complex discretionary trading models (such as Quasimodo price action, institutional Order Blocks, Fair Value Gaps, and market structure breaks) into high-performance, automated, and semi-automated execution engines for MetaTrader 4 & 5 and NinjaTrader.
+Agencies call us when a project is technically blocked — a live outage nobody can diagnose, a codebase abandoned by the developer who wrote it, or a delivery date that needs senior hands this week. Work runs under a binding mutual NDA and ships under **your** brand. Your client never learns we exist.
 
----
-
-## 🛠️ Tech Stack & Skills
-<p align="left">
-  <img src="https://img.shields.io/badge/MQL5-007acc?style=for-the-badge&logo=c%2B%2B&logoColor=white" alt="MQL5" />
-  <img src="https://img.shields.io/badge/MQL4-007acc?style=for-the-badge&logo=c%2B%2B&logoColor=white" alt="MQL4" />
-  <img src="https://img.shields.io/badge/Pine_Script-29B6F6?style=for-the-badge&logo=pine-script&logoColor=white" alt="Pine Script" />
-  <img src="https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white" alt="C++" />
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
-  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git" />
-  <img src="https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white" alt="Windows" />
-</p>
-
-* **MetaTrader & Trading Platform Development:** Custom Expert Advisors (EAs), Advanced Indicators, Script Automation, and custom Bloomberg-inspired Graphical User Interfaces (GUIs) using raw Canvas/Object APIs.
-* **Algorithmic Strategies:** Multi-Symbol & Multi-Timeframe Concurrent Scanners, Grid & Martingale Systems, Drag-and-Drop Semi-Automatic Trade Assistants, and news filtering via Economic Calendar APIs.
-* **Risk Management Engines:** Strict account-wide equity/drawdown safeguards designed for Prop Firm Challenges (FTMO, FundedNext, etc.), dynamic position sizing, and broker execution slippage protection.
-* **Systems Engineering:** Modular Object-Oriented Programming (OOP), memory-efficient state machines, multi-threaded indicator performance optimizations, and license validation modules.
+**[trendmasterakademi.com](https://trendmasterakademi.com/)** · İzmir · Remote · TR / EN
 
 ---
 
-### 🚀 Core Algorithmic Systems & Engineering Portfolio
+## Terms, stated up front
 
-Rather than focusing on a single project, my repositories reflect a comprehensive ecosystem of quantitative tools, custom analytics, and automated trading infrastructures built across multiple programming languages. 
-
-* **MQL5 & C++ (Execution Engines & EAs):** Engineering production-grade, multi-threaded Expert Advisors for MetaTrader 5. My architectures feature multi-symbol/multi-timeframe concurrent scanners, memory-efficient state machines, and strict account-wide drawdown safeguards engineered specifically for Prop Firm environments.
-* **Pine Script (Advanced Market Analytics):** Developing complex custom indicators and visual mapping tools for TradingView. I specialize in translating discretionary logic—such as Smart Money Concepts (SMC), Institutional Order Blocks, and real-time volume profiling (CVD, OBV)—into precise, rule-based algorithms.
-* **Python (Quantitative Data Processing):** Building robust data pipelines and backend frameworks to process macro-economic data, optimize strategy logic, and analyze deep market microstructure beyond traditional charting platforms.
-* **Custom Trading GUIs:** Designing interactive, Bloomberg-inspired dashboards and drag-and-drop on-chart execution controls utilizing raw Canvas/Object APIs to make complex algorithmic data visually accessible and intuitive for the end-user.
-
-👉 *Explore my repositories to see functional code architectures and systems across these domains.*
+| | |
+|---|---|
+| **100% white-label** | Delivered under your brand. No credit line, no logo, no contact with your client. |
+| **Binding mutual NDA** | Signed before we read a line of your code. The [full contract is published](https://trendmasterakademi.com/nda/), not summarised. |
+| **Full code ownership** | Source, rights and documentation transfer to you on delivery. |
+| **First diagnosis is free** | You find out what is actually broken before anyone discusses scope or price. |
 
 ---
 
-## 📊 GitHub Analytics
-<p align="left">
-  <img height="180" src="https://github-readme-stats.vercel.app/api?username=trendmasterakademi&show_icons=true&theme=dark&bg_color=0d1117&title_color=ff9f1c&icon_color=ff9f1c&text_color=c9d1d9" alt="Mehmet's GitHub Stats" />
-  <img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=trendmasterakademi&layout=compact&theme=dark&bg_color=0d1117&title_color=ff9f1c&text_color=c9d1d9" alt="Top Languages" />
-</p>
+## We publish the method, not screenshots
+
+Case studies sealed behind an NDA prove nothing. So instead of a portfolio we publish the **[Diagnostic Catalog](https://trendmasterakademi.com/teshis/)** — 20 production failures documented the way we actually work them:
+
+> **symptom → three probable causes → the distinguishing test → the fix for that specific cause**
+
+Diagnosis #01, *same inventory sold to multiple customers*, has causes that look identical from the outside:
+
+```
+Are order created_at diffs < 1 second?   →  race condition
+                                            fix: atomic UPDATE + affected-rows validation
+
+Is payment_reference the same?           →  missing idempotency
+                                            fix: an entirely different one
+```
+
+Fixing the wrong cause makes the bug come back. Telling them apart is the whole job.
+
+Three tools run on that same catalog:
+
+- **[Crash Test](https://trendmasterakademi.com/crash-test/)** — 60-second triage that maps a live symptom onto a catalog diagnosis
+- **[Downtime Calculator](https://trendmasterakademi.com/kesinti-maliyeti/)** — visible arithmetic, no reputation multipliers, because those cannot be measured
+- **[Handover Audit](https://trendmasterakademi.com/devir-kontrolu/)** — the 12 items that decide whether a codebase can actually be taken over
 
 ---
 
-## 🤝 Let's Work Together
-I am available for freelance contracts, custom strategy development, and long-term algorithmic trading partnerships.
-* 💼 **Upwork Services Catalog:** [Institutional-Grade Trading Bot on Upwork](https://www.upwork.com/services/product/development-it-an-institutional-grade-algorithmic-trading-bot-mt5-ninjatrader-2063169859209407129?ref=project_share)
-* 💼 **Upwork Profile:** [trendmasterakademi on Upwork](https://www.upwork.com/freelancers/trendmasterakademi)
-* 📊 **TradingView Profile:** [trendmastera on TradingView](https://www.tradingview.com/u/trendmastera/#published-scripts)
-* 💬 **MQL5 Community Profile:** [mehmetmrt73 on MQL5](https://www.mql5.com/en/users/mehmetmrt73)
-* 📧 **Get in Touch:** [info@trendmasterakademi.com](mailto:info@trendmasterakademi.com)
+## Capabilities
+
+**Product & frontend** — corporate sites and landing pages · React / Next.js architecture · SaaS and custom web applications · admin and customer dashboards · Flutter cross-platform mobile
+
+**Backend & data** — Node.js, Python & FastAPI · PostgreSQL, Redis & database architecture · REST and GraphQL APIs · SQL and database bottleneck repair
+
+**Integrations** — Stripe, iyzico & PayTR · CRM, ERP and third-party systems · OpenAI / LLM automation · AI chatbots and assistants
+
+**Operations & rescue** — critical live outage hotfix · takeover of abandoned codebases · Docker, CI/CD and cloud deployment · Core Web Vitals and performance tuning · security and code-quality audits · technical architecture advisory
+
+**Specialist** — FinTech and algorithmic trading systems
 
 ---
 
-*“Discipline in trading is a virtue, but automating that discipline is a science.”*
+## Start here
+
+| Situation | Where to go |
+|---|---|
+| Production is down right now | [Crash Test](https://trendmasterakademi.com/crash-test/) → direct line |
+| A project is stalled or inherited | [Handover Audit](https://trendmasterakademi.com/devir-kontrolu/) |
+| You are an agency evaluating us | [White-label terms and process](https://trendmasterakademi.com/agency/) |
+
+---
+
+### Türkçe
+
+Dijital ajanslar için **%100 white-label** çalışan B2B mühendislik masası. Tıkanmış projeler, canlıda çözülemeyen arızalar, geliştiricisi ayrılmış kod tabanları. Resmi karşılıklı NDA, tam kod mülkiyeti devri, ilk teşhis ücretsiz. 20 teşhislik **[arıza kataloğu](https://trendmasterakademi.com/teshis/)** herkese açık.
+
+<sub>Trend Master Akademi · Studio & Labs · trendmasterakademi.com</sub>
